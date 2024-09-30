@@ -128,9 +128,33 @@ ul li {
     margin: 10px 0;
 }
 
-.contact-info p {
-    margin: 10px 0;
+.contact-info {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
+
+.contact-info p {
+    margin: 15px 0; /* More spacing between paragraphs */
+    line-height: 1.6; /* Improve readability */
+}
+
+.contact-info strong {
+    color: #2c3e50; /* Darker color for labels */
+    font-size: 1.1em; /* Slightly larger for emphasis */
+}
+
+.contact-info p:not(:last-child) {
+    border-bottom: 1px solid #eaeaea; /* Separate sections */
+    padding-bottom: 10px;
+}
+
+.contact-info p:last-child {
+    margin-bottom: 0; /* Remove extra margin for last paragraph */
+}
+
 
 footer {
     background-color: #003366;
